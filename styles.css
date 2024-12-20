@@ -1,0 +1,144 @@
+
+
+body{
+    height: 100%;
+}
+.ba{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: black;
+
+}
+.ba .log h1{
+    color: white;
+    cursor: pointer;    
+}
+.ba .men li{
+    list-style: none;
+    display: inline-block;
+}
+.ba .men li a{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ba .men li .active{
+    border-bottom: 4px solid #f63e4e;
+}
+.ba .men li a:hover{
+    border-bottom: 4px solid #f63e4e;
+
+}
+.cont{
+    background-image: url(Bg_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #424144;
+    height: 100vh;
+}
+.cont h1{
+    font-size: 40px;
+}
+.cont p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.cont button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #f63e4e;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prod{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: #424144;
+}
+.spro{
+    padding: 40px 5%;
+
+}
+.produ{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+.produ .cart{
+    width: 310px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgb(0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.produ .cart .img img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+.produ .cart .des{
+    padding: 5px 20px;
+    width: 0,8;
+}
+.produ .cart .tit{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+}
+.produ .cart .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.produ .cart .box .prix{
+    color: #f63e4e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.produ .cart .box .but{
+    font-size: 13px;
+    font-weight: 900;
+    color: #f63e4e;
+    padding: 10px;
+    border-radius: 5px;
+}
+.produ .cart .box .but:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+footer{
+    background: #f5f5f5;
+    height: 10vh;
+}
+footer p{
+    text-align: center;
+    line-height: 10vh;
+}
+footer p a{
+    text-decoration: none;
+    color: #f63e4e;
+    font-weight: bold;
+}
